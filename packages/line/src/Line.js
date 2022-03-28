@@ -220,6 +220,7 @@ const Line = props => {
                 tooltip={sliceTooltip}
                 current={currentSlice}
                 setCurrent={setCurrentSlice}
+                onClick={onClick}
             />
         )
     }
