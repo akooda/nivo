@@ -26,7 +26,7 @@ import { Line as D3Line } from 'd3-shape'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/line' {
+declare module 'akooda-nivo-line' {
     export type DatumValue = CoreDatumValue
 
     export interface Datum {
